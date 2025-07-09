@@ -43,7 +43,7 @@ A TypeScript-based tool for sending messages to multiple Telegram users by their
 
 ```bash
 # Clone the repository (if from git)
-git clone <repository-url>
+git clone https://github.com/kmjones1979/mass-tg-tool.git
 cd mass-tg-tool
 
 # Install dependencies
