@@ -1,0 +1,31 @@
+{
+    "name": "mass-tg-tool",
+    "version": "1.0.0",
+    "description": "TypeScript Telegram bot for mass messaging to handles",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "ts-node src/index.ts",
+        "setup": "ts-node src/setup.ts"
+    },
+    "keywords": [
+        "telegram",
+        "bot",
+        "mass-messaging",
+        "typescript"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "telegram": "^2.19.8",
+        "dotenv": "^16.3.1",
+        "readline-sync": "^1.4.10"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.4",
+        "@types/readline-sync": "^1.4.8",
+        "typescript": "^5.3.3",
+        "ts-node": "^10.9.1"
+    }
+}
